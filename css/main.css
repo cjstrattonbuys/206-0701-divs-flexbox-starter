@@ -108,11 +108,45 @@ body {
   height: 100%;
 }
 
+header,
+footer,
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    font-size: 3em;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    font-size: 2em;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+main {
+    height: 50px;
+    width: 100%;
+    font-size: 1.25em;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .div-1, .div-2, .div-3 {
